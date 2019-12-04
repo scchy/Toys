@@ -9,7 +9,7 @@ run_sql.sh     生成日志文件 & 检测是否跑数成功，未成功则再�
 try_sql.sql               主要的SQL;插入数据记得 commit; 文件内容 必须 在 sql=" "的双引号之间  
 quick_start_vtcsql.sh     快速运行文件   
     需要输入 运行时间、运行地市/looplocal、sql文件的路径、登录文件的路径  
-【注：】
+【注：】  
 1- quick_start_vtcsql.sh + try_sql.sql 文件 <=> vertica.pl + vertica.bat  
 2- quick_start_vtcsql.sh 和 try_sql.sql 文件路径可改  
 3- vtc_login <=> C:\etl\etc\LOGON_PRT_VTC  路径建议不要改，可以创建多个  
