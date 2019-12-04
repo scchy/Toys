@@ -1,4 +1,5 @@
 ## 核心文件 `~/vtc_script/vtc_base/`
+需要将下列文件放置在 /vtc_base/ 中
 -   vtc_login      vertcia账号名 + 密码  
 -   sql_values.sh  存储主要的SQL变量，变量名称和perl脚本一样  
 -   vtc_connet.sh  连接数据库 & 运行SQL &  输出日志  
