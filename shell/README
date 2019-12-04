@@ -16,5 +16,4 @@ quick_start_vtcsql.sh     快速运行文件
 ## ============== crontab 设置 ==============
 类似：
     30 6 16 * * sh ~/vtc_script/quick_start_vtcsql.sh 
-
-![https://github.com/scchy/Toys/blob/master/shell/%E6%A8%A1%E5%9D%97%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D.jpg]
+![模块流程图](https://github.com/scchy/Toys/blob/master/shell/%E6%A8%A1%E5%9D%97%E7%AE%80%E5%8D%95%E4%BB%8B%E7%BB%8D.jpg)
