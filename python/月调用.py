@@ -10,6 +10,8 @@ import datetime
 import os 
 import re
 import argparse
+from progressing import My_Progress
+
 
 def parse_args():
       """
@@ -90,6 +92,7 @@ class Month_call_script():
 
 
       def exc_perls(self):
+            p = My_Progress(self.exec_array, width=45)
             for exec_i in self.exec_array:
                   re_exce_i = re.search(r'(\w+)\.pl \w_(\d{6})\d{2}\.dir > (.*\.log)$', exec_i) 
                   year_month_i = re_exce_i.group(2)
@@ -112,7 +115,7 @@ class Month_call_script():
                         print("<< THE FILE NOT EXISTS >>\n")
                         while(loop == 0):# 如果没有执行成功再执行一遍
                               loop = self.exec_sub(exec_i, check_log)
-
+                  print('进度: {}'.format(p_msg))
             print("\n<<<<<=========== All Perl Script Has Finished ===========>>>>>>")
 
 
